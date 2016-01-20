@@ -77,6 +77,7 @@ Call the directive wherever you want in your html page
 Option | Type | Default | Description
 ------------- | ------------- | ------------- | -------------
 date-set="" | String | false | Set a default date to show and init datepicker
+date-updated="" | Function | null | Set a callback function which will be triggered when date is updated
 date-format="" | String | String(new Date()) | Set the date format you want to use, see the list [here](https://docs.angularjs.org/api/ng/filter/date)
 date-min-limit="" | String | false | Set a minimum date limit - you can use all the accepted date formats by the javascript `new Date()`
 date-max-limit="" | String | false | Set a maximum date limit - you can use all the accepted date formats by the javascript `new Date()`
